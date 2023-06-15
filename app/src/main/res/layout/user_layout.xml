@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:background="@drawable/no_avatar"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chomik"
+            android:layout_gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtOpis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tutaj będzie zajebisty opis"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:paddingEnd="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutButtons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnMessage"
+            android:layout_width="40dp"
+            android:layout_height ="40dp"
+            android:paddingBottom="15dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="20dp"
+            android:background="@android:drawable/sym_action_chat" />
+
+        <ImageButton
+            android:id="@+id/btnRating"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:drawable/btn_star_big_on"
+            android:paddingBottom="305dp" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="brak"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
